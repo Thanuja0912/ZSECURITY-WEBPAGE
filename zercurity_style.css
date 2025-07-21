@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+}
+header{
+    display: flex;
+    background-color: blue;
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+header nav a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 15px;
+    color: white;
+}
+.logo{
+   font-size: 40px;
+   font-weight: 200;
+   color: white;
+}
+ nav  :hover{ 
+    color: black;
+    background: orange;
+}
+header p{
+    font-size: 25px;
+}
+.btn-1{
+    font-size: 25px;
+    padding: 8px;
+    color: white;
+}
+.btn-2{
+    font-size: 25px;
+    padding: 8px;  
+    color: white;
+}
+header button{
+    background: blue;
+}
+header button:hover{
+    color: black;
+    background: orange;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: black;
+    height: auto;
+    color: white ;
+}
+.image{
+    width: 70%;
+    margin-top: 75px;
+}
+.image img{
+    width: 70%;
+    margin: 30px;
+}
+.content{
+    margin: 200px;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 10px ;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btn-3{
+    background: white ;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.btn-4{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+ button:hover{
+    background: orange;
+ }
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 70px 150px;
+    
+}
+.box{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    border: 3px solid black;
+    grid-template-columns: 400px;
+}
+.mind{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: skyblue;
+    height: 650px;
+}
+.con h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.con p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.img{
+    width: 50%
+}
+.fre{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.fre h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.box:hover{
+    transform: translateY(15px);
+    background: black;
+    color: white;
+}
+
+.box img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box h1{
+    padding-bottom: 10px;
+}
+.box p{
+    padding-bottom: 10px;
+}
+.box a{
+    text-decoration: none;
+    padding-bottom: 10px; 
+    color: gold;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+}
+footer h4{
+   padding-top: 20px;
+}
+footer p{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
